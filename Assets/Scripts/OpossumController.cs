@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OpossumController : MonoBehaviour
 {
@@ -13,19 +11,10 @@ public class OpossumController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void OnTriggerEnter(Collider collider)
-    {
-        Debug.Log("OnTriggerEnter");
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("OnCollisionEnter");
-    }
-
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 targetVelocity = new Vector2(-runSpeed * Time.fixedDeltaTime, rb.velocity.y);
+        Vector2 targetVelocity = new Vector2(-1 * runSpeed * Time.fixedDeltaTime, rb.velocity.y);
         rb.velocity = targetVelocity;
     }
 }

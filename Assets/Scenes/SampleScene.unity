@@ -1294,6 +1294,7 @@ GameObject:
   - component: {fileID: 1544025706}
   - component: {fileID: 1544025707}
   - component: {fileID: 1544025708}
+  - component: {fileID: 1544025709}
   m_Layer: 0
   m_Name: Middle
   m_TagString: Untagged
@@ -2741,6 +2742,18 @@ CompositeCollider2D:
       - {x: -10.99997, y: -5}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+--- !u!114 &1544025709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544025702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c81ed9e8e04fd44c9a21ccf3441da64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607678457
 GameObject:
   m_ObjectHideFlags: 0
